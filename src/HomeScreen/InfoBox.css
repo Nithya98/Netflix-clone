@@ -1,0 +1,34 @@
+.infobox {
+  height: 448px;
+  color: #fff;
+  display: flex;
+  background-color: linear-gradient(rgba(37, 37, 37, 0.61), #111);
+}
+.infobox__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.infobox__heading {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.infobox__contents_p {
+  font-size: 1.5rem;
+  max-width: 800px;
+  text-align: center;
+}
+.infobox__button {
+  margin-top: 30px;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
