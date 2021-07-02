@@ -1,8 +1,9 @@
 .infobox {
   height: 448px;
+  width: 100%;
   color: #fff;
   display: flex;
-  background-color: linear-gradient(rgba(37, 37, 37, 0.61), #111);
+  background: linear-gradient(rgba(37, 37, 37, 0.61), #111);
 }
 .infobox__contents {
   display: flex;

@@ -2,6 +2,9 @@
   color: #757575;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.2rem;
+  background-color: #111;
+}
+.footer > p {
   margin-left: 20px;
 }
 .footer__links {

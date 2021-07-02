@@ -5,7 +5,7 @@ import Banner from '../HomeScreen/Banner'
 import Rows from '../HomeScreen/Rows'
 import Requests from '../HomeScreen/Requests'
 import InfoBox from '../HomeScreen/InfoBox'
-import { Footer } from '../HomeScreen/Footer'
+import Footer from '../HomeScreen/Footer'
 
 const HomeScreen = () => {
   return (

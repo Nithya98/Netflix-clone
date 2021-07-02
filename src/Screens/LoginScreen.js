@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './LoginScreen.css'
 import SignUpScreen from './SignUpScreen'
+import Footer from '../HomeScreen/Footer'
+import InfoBox from '../HomeScreen/InfoBox'
 
 const LoginScreen = () => {
   const [signIn, setSignIn] = useState(false)
@@ -42,6 +44,8 @@ const LoginScreen = () => {
             </>
           )}
         </div>
+        <InfoBox />
+        <Footer />
       </div>
     </div>
   )

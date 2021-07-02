@@ -7,7 +7,7 @@ import {
   FaYoutube,
 } from 'react-icons/fa'
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <div className='footer'>
       <p>Questions? Contact us.</p>
@@ -72,3 +72,5 @@ export const Footer = () => {
     </div>
   )
 }
+
+export default Footer
